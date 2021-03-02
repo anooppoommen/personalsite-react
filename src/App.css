@@ -1,0 +1,282 @@
+*{
+  margin:0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#logo{
+  position: absolute;
+  height: 40px;
+  padding-top: 10px;
+  width: 50px;
+  margin: 25px;
+  color: #013338;
+  background-size: cover;
+  opacity: 0.8;
+  background-image: url("logo.png")
+}
+
+#root{
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+#wrapper{
+  width: 50%;
+}
+
+.holder{
+  position: absolute;
+  font-size: 18px;
+  text-align: center;
+}
+
+.line{
+  padding-right:10px;
+}
+
+.profile-logo{
+  height:30px;
+  width: 30px;
+  background-size: cover;
+  display: inline-block;
+  border:solid 0px #fff;
+  color:#333;
+  margin:0px 10px;
+  transition: 700ms;
+  transition: 200ms;
+  font-size: 15px !important;
+}
+
+.profile-logo:hover{
+  color:#030306;
+  transform: translateY(-6px);
+
+}
+
+#contact-holder{
+  text-align: center;
+  padding-top:50px;
+}
+
+.glitch {
+  position: relative;
+  display: inline-block;
+}
+
+.glitch:after {
+  -webkit-animation: glitch-animation 2s infinite linear alternate-reverse;
+  animation: glitch-animation 2s infinite linear alternate-reverse;
+  background: rgb(255, 255, 255);
+  clip: rect( 0, 900px, 0, 0 );
+  color: black;
+  content: "Anoop P Oommen";
+  left: 2px;
+  overflow: hidden;
+  position: absolute;
+  text-shadow: -1px 0 red;
+  top: 0;
+}
+.glitch:before {
+  -webkit-animation: glitch-animation-2 3s infinite linear alternate-reverse;
+  animation: glitch-animation-2 3s infinite linear alternate-reverse;
+  background: white;
+  clip: rect( 0, 900px, 0, 0 );
+  color: black;
+  content: "Anoop P Oommen";
+  left: -2px;
+  overflow: hidden;
+  position: absolute;
+  text-shadow: 1px 0 #1978ca;
+  top: 0;
+}
+
+/* Expanded Animations */
+@keyframes glitch-animation {
+  0% {
+    clip: rect(42px, 9999px, 44px, 0);
+  }
+  5% {
+    clip: rect(12px, 9999px, 59px, 0);
+  }
+  10% {
+    clip: rect(48px, 9999px, 29px, 0);
+  }
+  15.0% {
+    clip: rect(42px, 9999px, 73px, 0);
+  }
+  20% {
+    clip: rect(63px, 9999px, 27px, 0);
+  }
+  25% {
+    clip: rect(34px, 9999px, 55px, 0);
+  }
+  30.0% {
+    clip: rect(86px, 9999px, 73px, 0);
+  }
+  35% {
+    clip: rect(20px, 9999px, 20px, 0);
+  }
+  40% {
+    clip: rect(26px, 9999px, 60px, 0);
+  }
+  45% {
+    clip: rect(25px, 9999px, 66px, 0);
+  }
+  50% {
+    clip: rect(57px, 9999px, 98px, 0);
+  }
+  55.0% {
+    clip: rect(5px, 9999px, 46px, 0);
+  }
+  60.0% {
+    clip: rect(82px, 9999px, 31px, 0);
+  }
+  65% {
+    clip: rect(54px, 9999px, 27px, 0);
+  }
+  70% {
+    clip: rect(28px, 9999px, 99px, 0);
+  }
+  75% {
+    clip: rect(45px, 9999px, 69px, 0);
+  }
+  80% {
+    clip: rect(23px, 9999px, 85px, 0);
+  }
+  85.0% {
+    clip: rect(54px, 9999px, 84px, 0);
+  }
+  90% {
+    clip: rect(45px, 9999px, 47px, 0);
+  }
+  95% {
+    clip: rect(37px, 9999px, 20px, 0);
+  }
+  100% {
+    clip: rect(4px, 9999px, 91px, 0);
+  }
+}
+@keyframes glitch-animation-2 {
+  0% {
+    clip: rect(65px, 9999px, 100px, 0);
+  }
+  5% {
+    clip: rect(52px, 9999px, 74px, 0);
+  }
+  10% {
+    clip: rect(79px, 9999px, 85px, 0);
+  }
+  15.0% {
+    clip: rect(75px, 9999px, 5px, 0);
+  }
+  20% {
+    clip: rect(67px, 9999px, 61px, 0);
+  }
+  25% {
+    clip: rect(14px, 9999px, 79px, 0);
+  }
+  30.0% {
+    clip: rect(1px, 9999px, 66px, 0);
+  }
+  35% {
+    clip: rect(86px, 9999px, 30px, 0);
+  }
+  40% {
+    clip: rect(23px, 9999px, 98px, 0);
+  }
+  45% {
+    clip: rect(85px, 9999px, 72px, 0);
+  }
+  50% {
+    clip: rect(71px, 9999px, 75px, 0);
+  }
+  55.0% {
+    clip: rect(2px, 9999px, 48px, 0);
+  }
+  60.0% {
+    clip: rect(30px, 9999px, 16px, 0);
+  }
+  65% {
+    clip: rect(59px, 9999px, 50px, 0);
+  }
+  70% {
+    clip: rect(41px, 9999px, 62px, 0);
+  }
+  75% {
+    clip: rect(2px, 9999px, 82px, 0);
+  }
+  80% {
+    clip: rect(47px, 9999px, 73px, 0);
+  }
+  85.0% {
+    clip: rect(3px, 9999px, 27px, 0);
+  }
+  90% {
+    clip: rect(26px, 9999px, 55px, 0);
+  }
+  95% {
+    clip: rect(42px, 9999px, 97px, 0);
+  }
+  100% {
+    clip: rect(38px, 9999px, 49px, 0);
+  }
+}
+
+@keyframes initial-loading {
+  0%, 100% {
+    transform: translate(-34px,0)
+	}
+  50% {
+    transform: translate(96px,0)
+	}
+}
+#loader {
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    z-index: 999;
+    background-color: #f5f5f5;
+    padding-top: 120px;
+    transition: 700ms;
+}
+  .loading-bar {
+    width: 130px;
+    height: 2px;
+    margin: 0 auto;
+    border-radius: 2px;
+    background-color: #cfcfcf;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    transform: rotateY(0);
+    transition: transform .3s ease-in;
+}
+.bar {
+    height: 100%;
+    width: 68px;
+    position: absolute;
+    transform: translate(-34px, 0);
+    background-color: #1b1d1f;
+    border-radius: 2px;
+    animation: initial-loading 1.5s infinite ease;
+}
+#footer{
+  position: absolute;
+  bottom: 0;
+  left:0;
+  right: 0;
+  height: 62px;
+  color: #333;
+}
+
+#ftext{
+  margin: 0px auto;
+  width:320px;
+  font-size:12px;
+  text-align: center;
+  padding-top:30px;
+}
